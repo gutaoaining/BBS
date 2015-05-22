@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN" "http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+
+	<!-- 是否启用开发模式 -->
+	<constant name="struts.devMode" value="true" />
+	<!-- 请求参数的编码方式 -->
+	<constant name="struts.i18n.encoding" value="utf-8" />
+	<!-- 让struts2支持动态方法调用 -->
+	<constant name="struts.enable.DynamicMethodInvocation" value="true" />
+	<!-- Action名称中是否还是用斜线 -->
+	<constant name="struts.enable.SlashesInActionNames" value="true" />
+
+	<package name="gutao" extends="struts-default">
+   <!--   
+    <action name="documentAction" class="gt.bbs.action.DocumentAction">
+    <result>/index.jsp</result>
+    </action> 
+    -->
+	</package>
+
+</struts>
